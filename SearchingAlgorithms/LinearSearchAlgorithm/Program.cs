@@ -19,7 +19,14 @@
         Program p = new Program();
         int[] A = { 84, 21, 47, 96, 15 };
         int ans = p.Linear_search(A, 5, 96);
-        Console.WriteLine("It is found at index: "+ans);
+        if (ans >= 0)
+        {
+            Console.WriteLine("It is found at index: " + ans);
+        }
+        else
+        {
+            Console.WriteLine("Not found");
+        }
         Console.ReadKey();
     }
 }

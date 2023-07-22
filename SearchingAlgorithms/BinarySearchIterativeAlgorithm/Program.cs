@@ -1,5 +1,6 @@
 ﻿class Program
 {
+    //The Array must be sorted for BinarySearch
     public int BinarySearch(int[] A,int n, int key)
     {
         int L = 0;
